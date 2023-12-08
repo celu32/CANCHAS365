@@ -1,0 +1,111 @@
+[
+  {
+    "id": 1,
+    "name": "LOS AMIGOS FUTBOL 5",
+    "images": [
+      "./fútbol1.png",
+      "./fútbol2.png",
+      "./fútbol3.png",
+      "./fútbol4.png",
+      "./fútbol5.png"
+    ],
+    "location": {
+      "id": 1,
+      "city": "Buenos Aires",
+      "zip": 1043,
+      "street": "Av. Córdoba 4580"
+    },
+    "phone_number": 111111,
+    "playing_field": [
+      {
+        "id": 1,
+        "sports": {
+          "id": 1,
+          "name": "Fútbol"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "LAWN TENIS CLUB",
+    "images": [
+      "./tenis4.png",
+      "./tenis1.png",
+      "./tenis2.png",
+      "./tenis3.png",
+      "./tenis4.png"
+    ],
+    "location": {
+      "id": 2,
+      "city": "Córdoba",
+      "zip": 5000,
+      "street": "Av. Concepcion Arenales 280"
+    },
+    "phone_number": 111111,
+    "playing_field": [
+      {
+        "id": 2,
+        "sports": {
+          "id": 2,
+          "name": "Tenis"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "LAS PALETAS CLUB DE PADEL",
+    "images": [
+      "./padel1.jpg",
+      "./padel2.jpg",
+      "./padel3.jpg",
+      "./padel4.jpg",
+      "./padel5.jpg"
+    ],
+    "location": {
+      "id": 3,
+      "city": "Mendoza",
+      "zip": 5500,
+      "street": "Av. Colón 4598"
+    },
+    "phone_number": 111111,
+    "playing_field": [
+      {
+        "id": 3,
+        "sports": {
+          "id": 3,
+          "name": "Padel"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "SWING NATACION",
+    "images": [
+      "./nat1.png",
+      "./nat2.png",
+      "./nat4.jpg",
+      "./nat5.jpg",
+      "./nata3.jpg"
+    ],
+    "location": {
+      "id": 4,
+      "city": "Buenos Aires",
+      "zip": 1120,
+      "street": "Av. San Martin 3800"
+    },
+    "phone_number": 111111,
+    "playing_field": [
+      {
+        "id": 4,
+        "sports": {
+          "id": 4,
+          "name": "Natación"
+        }
+      }
+    ]
+  }
+]
+

@@ -1,0 +1,26 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./Front-End
+      dockerfile: Dockerfile
+    ports:
+      - "5173:5173"
+    networks:
+      - my_network
+    env_file:
+      - .env.aws
+
+  backend:
+    build:
+      context: ./Back-End/canchas365
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    networks:
+      - my_network
+
+networks:
+  my_network:
+    driver: bridge
